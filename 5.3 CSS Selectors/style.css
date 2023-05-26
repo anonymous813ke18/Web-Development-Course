@@ -4,9 +4,6 @@ ol {
   margin-top: -20px;
   list-style-position: inside;
 }
-body{
-  text-align: center;
-}
 p{
   color: red;
 }
@@ -24,4 +21,9 @@ p{
 /*Attribute Selector*/
 li[value="4"]{
   color: blue;
+}
+
+/*Universal Selector*/
+*{
+  text-align: center;
 }
